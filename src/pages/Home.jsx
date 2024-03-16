@@ -14,7 +14,7 @@ function Home() {
                   Discover, Write, Connect.
                 </h1>
                 <p className="text-lg sm:text-xl md:text-xl xl:text-2xl mb-8">
-                  Articles Hub, your way of...
+                  Bblog, your way of...
                   <br /> Write, Share, Inspire.
                 </p>
               </div>
