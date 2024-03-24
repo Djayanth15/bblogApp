@@ -14,6 +14,7 @@ import PostForm from "./post-form/PostForm";
 import PostCard from "./PostCard";
 import AuthLayout from "./AuthLayout";
 import Loading from "./Loading";
+import ErrorPage from "./ErrorPage";
 
 export {
   Header,
@@ -32,4 +33,5 @@ export {
   Logo,
   LogoutBtn,
   Loading,
+  ErrorPage,
 };

@@ -11,6 +11,7 @@ import Home from "./pages/Home.jsx";
 import AddPost from "./pages/AddPost";
 import Signup from "./pages/Signup";
 import EditPost from "./pages/EditPost";
+import { ErrorPage } from "./components/index.js";
 
 import Post from "./pages/post.jsx";
 
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: "/post/:slug",
         element: <Post />,
+      },
+      {
+        path: "/*",
+        element: <ErrorPage />,
       },
     ],
   },
